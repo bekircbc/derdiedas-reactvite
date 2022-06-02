@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import './App.scss';
 import axios from 'axios';
-import * as qstr from './qstr';
+import * as qstr from '../qtools/qstr';
 import styled from 'styled-components';
 
 const url = 'https://edwardtanguay.netlify.app/share/germanNouns.json';
