@@ -1,0 +1,26 @@
+body {
+	background: #333;
+	color: #ccc;
+	padding: 0 20px;
+
+	h1 {
+		color: rgb(226, 226, 151);
+	}
+
+	.buttons {
+		margin-bottom: 10px;
+		button {
+			font-size: 1.5rem;
+			width: 100px;
+			margin-right: 5px;
+		}
+	}
+
+	.nouns {
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+		grid-template-rows: repeate(5, 1fr);
+		grid-column-gap: 2px;
+		grid-row-gap: 2px;
+	}
+}
